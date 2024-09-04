@@ -2,13 +2,14 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     margin: 0px;
     font-size: 1.75vw;
-    background-color: rgb(255, 187, 236);
+    background-color: rgb(203, 225, 255);
 }
 
 #logo {
     margin: 0px;
     padding: 8px;
     font-family: "Fredoka One", sans-serif;
+    font-size: 5vw;
     box-shadow: 8px 8px 10px 3px darkorange;
     width: 18%;
     border-radius: 100%;
@@ -47,10 +48,11 @@ body > header > nav > ul {
 
 .navbutton {
     color:white;
+    font-size: 2vw;
+    font-family: "Fredoka One", sans-serif;
     text-decoration: none;
     padding: 12px;
-    border: 1px solid white;
-    border-radius: 100%;
+    border-radius: 12px;
 }
 
 body > main article {
