@@ -27,7 +27,7 @@ body > header {
 
 #main-header {
     display: flex;
-    height: 10vh;
+    height: 16.5vh;
     align-items: center;
     justify-content: space-around;
 }
