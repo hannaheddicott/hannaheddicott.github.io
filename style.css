@@ -1,18 +1,17 @@
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Fredoka One, Arial, sans-serif;
     margin: 0px;
     font-size: 1.75vw;
-    background-color: rgb(203, 225, 255);
+    color: rgb(255, 255, 255);
+    background-color: rgb(242, 210, 255);
 }
 
 #logo {
-    margin: 0px;
-    padding: 8px;
-    font-family: "Fredoka One", sans-serif;
-    font-size: 5vw;
-    box-shadow: 8px 8px 10px 3px darkorange;
-    width: 18%;
-    border-radius: 100%;
+    margin-top: 20.5px;
+    padding: 20px;
+    font-family: "Dancing Script", sans-serif;
+    font-size: 8.2vw;
+    
 
 }
 
@@ -21,13 +20,14 @@ ul {
 }
 
 body > header {
-    background-color: orange;
-    color: rgb(255, 220, 114)
+    background: linear-gradient(to top, rgb(242, 210, 255) 0%, rgb(255, 238, 183) 50%);
+    color: rgb(255, 166, 255)
+    
 }
 
 #main-header {
     display: flex;
-    height: 16.5vh;
+    height: 10%;
     align-items: center;
     justify-content: space-around;
 }
@@ -47,8 +47,8 @@ body > header > nav > ul {
 }
 
 .navbutton {
-    color:white;
-    font-size: 2vw;
+    color:rgb(255, 194, 253);
+    font-size: 1.9vw;
     font-family: "Fredoka One", sans-serif;
     text-decoration: none;
     padding: 12px;
@@ -60,13 +60,25 @@ body > main article {
     margin: auto;
 }
 
+aside {
+    margin-left: 30px;
+    margin-top: 0px;
+    color: rgb(255, 166, 255);
+    width: 80px;
+}
+
+.no-bullets{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
 #main-content{
     display: flex;
     justify-content: space-around;
 }
 
 #main-content > div{
-    width: 70%;
+    width: 90%;
 }
 
 #main-content > aside {
@@ -81,23 +93,149 @@ h2 {
     text-align: center;
 }
 
-body > footer {
-    background-color: orange;
-    display: flex;
-    
+#tees {
+    padding-top: 50px;
+    padding-left: 135px;
 }
 
-img {
-    border-radius: 50%;
+#lilac-top {
+    border-radius: 20%;
+    height: 30vh;
+}
+
+#white-top {
+    border-radius: 20%;
+    height: 30vh; 
+}
+
+#green-top {
+    border-radius: 20%;
+    height: 30vh;   
+}
+
+#white-blue-top {
+    border-radius: 20%;
+    height: 30vh;
+}
+
+#black-pink-top {
+    border-radius: 20%;
+    height: 30vh;
+}
+
+#white-yellow-top {
+    border-radius: 20%;
+    height: 30vh;
+}
+
+#hoodies {
+    padding-top: 50px;
+    padding-left: 105px;
+}
+
+#white-blue-hoodie {
+    border-radius: 20%;
+    height: 30vh;
+}
+
+# {
+    border-radius: 20%;
+    height: 30vh; 
+}
+
+# {
+    border-radius: 20%;
+    height: 30vh;   
+}
+
+# {
+    border-radius: 20%;
+    height: 30vh;
+}
+
+# {
+    border-radius: 20%;
+    height: 30vh;
+}
+
+# {
+    border-radius: 20%;
+    height: 30vh;
+}
+
+
+#name, #email, #password, #country, #bio {
+    border: none;
+    border-radius: 10%;
+    background-color: rgb(245, 221, 254);
+    font-family: fredoka one; 
+}
+
+option {
+    color: white;
+}
+
+
+body > footer {
+    display: flex;
+    background: linear-gradient(to bottom, rgb(242, 210, 255) 0%, rgb(255, 238, 183) 100%); 
+    color: rgb(255, 166, 255)   
+}
+
+body > footer {
+    padding: 10px;
+    margin-top: 20.5px;
+}
+
+#yfairy {
+height: 15vh;
+padding:5%;
+padding-left: 15%;
+}
+
+#pfairy {
+    height: 9vh;
+    padding: 5%;
+}
+
+#bfairy {
+    height: 15vh;
+    padding: 5%;
+}
+
+#gfairy {
+    height: 15vh;
+    padding: 5%;
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50vh;
+}
+
+#tees{
+    align-items: center;
+}
+
+
+}
+
+#logo-footer {
+    font-size: 25px;
+    padding: 30px;
+    font-family: Dancing Script;
 }
 
 #footer-ul {
     display: flex;
     list-style: none;
+
 }
 
 #footer-ul > div > li {
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
 }
 
 #footer-ul > div > li > a {
@@ -105,3 +243,67 @@ img {
     color: white;
 }
 
+
+@media only screen and (max-width: 1000px){
+    body{
+        background-color: rgb(242, 210, 255);
+     }
+     #yfairy {
+        height: 12vh;
+        padding:5%;
+        padding-left: 15%;
+        }
+        
+        #pfairy {
+            height: 7vh;
+            padding: 5%;
+        }
+        
+        #bfairy {
+            height: 12vh;
+            padding: 5%;
+        }
+        
+        #gfairy {
+            height: 12vh;
+            padding: 5%;
+        
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 50vh;
+        }
+}
+}
+
+@media only screen and (max-width: 800px) {
+    body{
+        background-color: rgb(242, 210, 255);
+     }
+     #yfairy {
+        height: 7vh;
+        padding:5%;
+        padding-left: 15%;
+        }
+        
+        #pfairy {
+            height: 5vh;
+            padding: 5%;
+        }
+        
+        #bfairy {
+            height: 7vh;
+            padding: 5%;
+        }
+        
+        #gfairy {
+            height: 7vh;
+            padding: 5%;
+        
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            padding: 50vh;
+        }
+}
+}
