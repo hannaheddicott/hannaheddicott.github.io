@@ -1,3 +1,4 @@
+/* body section */
 body {
     font-family: Fredoka One, Arial, sans-serif;
     margin: 0px;
@@ -6,25 +7,21 @@ body {
     background-color: rgb(242, 210, 255);
 }
 
+/* logo */
 #logo {
     margin-top: 20.5px;
     padding: 20px;
     font-family: "Dancing Script", sans-serif;
     font-size: 8.2vw;
-    
-
 }
 
-ul {
-    margin: 0px;
-}
-
+/* gradient header */
 body > header {
     background: linear-gradient(to top, rgb(242, 210, 255) 0%, rgb(255, 238, 183) 50%);
-    color: rgb(255, 166, 255)
-    
+    color: rgb(255, 166, 255) 
 }
 
+/* header format */
 #main-header {
     display: flex;
     height: 10%;
@@ -32,6 +29,7 @@ body > header {
     justify-content: space-around;
 }
 
+/* nav format & stying */
 body > header > nav > ul {
     list-style: none;
     text-decoration: none;
@@ -55,11 +53,13 @@ body > header > nav > ul {
     border-radius: 12px;
 }
 
+/* main body formatting */
 body > main article {
     width: 80%;
     margin: auto;
 }
 
+/* side bar (filters) formatting */
 aside {
     margin-left: 30px;
     margin-top: 0px;
@@ -72,6 +72,7 @@ aside {
     padding-left: 0px;
 }
 
+/* main content formatting */
 #main-content{
     display: flex;
     justify-content: space-around;
@@ -93,9 +94,14 @@ h2 {
     text-align: center;
 }
 
+/* tees section */
 #tees {
-    padding-top: 50px;
-    padding-left: 135px;
+    padding-top: 80px;
+    padding-left: 95px;
+}
+
+#tees{
+    align-items: center;
 }
 
 #lilac-top {
@@ -128,6 +134,7 @@ h2 {
     height: 30vh;
 }
 
+/* hoodies section */
 #hoodies {
     padding-top: 50px;
     padding-left: 105px;
@@ -138,32 +145,17 @@ h2 {
     height: 30vh;
 }
 
-# {
-    border-radius: 20%;
-    height: 30vh; 
-}
-
-# {
-    border-radius: 20%;
-    height: 30vh;   
-}
-
-# {
+#black-blue-hoodie {
     border-radius: 20%;
     height: 30vh;
 }
 
-# {
+#black-pink-hoodie {
     border-radius: 20%;
     height: 30vh;
 }
 
-# {
-    border-radius: 20%;
-    height: 30vh;
-}
-
-
+/* newsletter question format & styling */
 #name, #email, #password, #country, #bio {
     border: none;
     border-radius: 10%;
@@ -175,7 +167,7 @@ option {
     color: white;
 }
 
-
+/* footer gradient, & styling */
 body > footer {
     display: flex;
     background: linear-gradient(to bottom, rgb(242, 210, 255) 0%, rgb(255, 238, 183) 100%); 
@@ -187,24 +179,25 @@ body > footer {
     margin-top: 20.5px;
 }
 
+/* fairies front page */
 #yfairy {
-height: 15vh;
+height: 24vh;
 padding:5%;
 padding-left: 15%;
 }
 
 #pfairy {
-    height: 9vh;
+    height: 15vh;
     padding: 5%;
 }
 
 #bfairy {
-    height: 15vh;
+    height: 24vh;
     padding: 5%;
 }
 
 #gfairy {
-    height: 15vh;
+    height: 24vh;
     padding: 5%;
 
 .flex-container {
@@ -213,19 +206,17 @@ padding-left: 15%;
     padding: 50vh;
 }
 
-#tees{
-    align-items: center;
-}
-
 
 }
 
+/* footer logo */
 #logo-footer {
     font-size: 25px;
     padding: 30px;
     font-family: Dancing Script;
 }
 
+/* footer content format & styling */
 #footer-ul {
     display: flex;
     list-style: none;
@@ -243,7 +234,7 @@ padding-left: 15%;
     color: white;
 }
 
-
+/* formatting for medium size screen */
 @media only screen and (max-width: 1000px){
     body{
         background-color: rgb(242, 210, 255);
@@ -276,6 +267,7 @@ padding-left: 15%;
 }
 }
 
+/* formatting for phone size screen */
 @media only screen and (max-width: 800px) {
     body{
         background-color: rgb(242, 210, 255);
