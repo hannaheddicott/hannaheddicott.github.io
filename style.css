@@ -60,7 +60,7 @@ body > main article {
 }
 
 /* side bar (filters) formatting */
-aside {
+#aside-left {
     margin-left: 30px;
     margin-top: 0px;
     color: rgb(255, 166, 255);
@@ -97,7 +97,8 @@ h2 {
 /* tees section */
 #tees {
     padding-top: 80px;
-    padding-left: 95px;
+    padding-left: 190px;
+    color: rgb(255, 166, 255);
 }
 
 #tees{
@@ -107,52 +108,63 @@ h2 {
 #lilac-top {
     border-radius: 20%;
     height: 30vh;
+    padding: 20px;
 }
 
 #white-top {
     border-radius: 20%;
     height: 30vh; 
+    padding: 20px;
 }
 
 #green-top {
     border-radius: 20%;
     height: 30vh;   
+    padding: 20px;
 }
 
 #white-blue-top {
     border-radius: 20%;
     height: 30vh;
+    padding: 20px;
 }
 
 #black-pink-top {
     border-radius: 20%;
     height: 30vh;
+    padding: 20px;
 }
 
 #white-yellow-top {
     border-radius: 20%;
-    height: 30vh;
+    height: 30vh;    
+    padding: 20px;
 }
 
 /* hoodies section */
 #hoodies {
+    align-items: center;
     padding-top: 50px;
-    padding-left: 105px;
+    padding-left: 165px;
+    color: rgb(255, 166, 255);
 }
 
 #white-blue-hoodie {
     border-radius: 20%;
     height: 30vh;
+    padding: 20px;
 }
 
 #black-blue-hoodie {
     border-radius: 20%;
     height: 30vh;
+    padding: 20px;
 }
 
 #black-pink-hoodie {
     border-radius: 20%;
     height: 30vh;
+    padding: 20px;
 }
 
 /* newsletter question format & styling */
@@ -161,6 +173,7 @@ h2 {
     border-radius: 10%;
     background-color: rgb(245, 221, 254);
     font-family: fredoka one; 
+    margin: 10px;
 }
 
 option {
@@ -207,6 +220,12 @@ padding-left: 15%;
 }
 
 
+}
+
+hr {
+    margin: 80px;
+    border-width: 0.5px;
+    background-color: white;
 }
 
 /* footer logo */
