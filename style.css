@@ -5,14 +5,14 @@ body {
     font-size: 1.75vw;
     color: rgb(255, 166, 255);
     background-color:#ff99be;
-background-image:
-radial-gradient(at 28% 77%, hsla(224,75%,70%,1) 0px, transparent 50%),
-radial-gradient(at 66% 43%, hsla(44,89%,65%,1) 0px, transparent 50%),
-radial-gradient(at 76% 90%, hsla(267,75%,64%,1) 0px, transparent 50%),
-radial-gradient(at 7% 66%, hsla(349,62%,79%,1) 0px, transparent 50%),
-radial-gradient(at 12% 87%, hsla(302,91%,66%,1) 0px, transparent 50%),
-radial-gradient(at 79% 2%, hsla(290,62%,60%,1) 0px, transparent 50%),
-radial-gradient(at 32% 92%, hsla(351,61%,78%,1) 0px, transparent 50%);
+    background-image:
+    radial-gradient(at 28% 77%, hsla(224,75%,70%,1) 0px, transparent 50%),
+    radial-gradient(at 66% 43%, hsla(44,89%,65%,1) 0px, transparent 50%),
+    radial-gradient(at 76% 90%, hsla(267,75%,64%,1) 0px, transparent 50%),
+    radial-gradient(at 7% 66%, hsla(349,62%,79%,1) 0px, transparent 50%),
+    radial-gradient(at 12% 87%, hsla(302,91%,66%,1) 0px, transparent 50%),
+    radial-gradient(at 79% 2%, hsla(290,62%,60%,1) 0px, transparent 50%),
+    radial-gradient(at 32% 92%, hsla(351,61%,78%,1) 0px, transparent 50%);
 }
 
 /* logo */
@@ -21,6 +21,7 @@ radial-gradient(at 32% 92%, hsla(351,61%,78%,1) 0px, transparent 50%);
     padding: 20px;
     font-family: "Dancing Script", sans-serif;
     font-size: 8.2vw;
+    color: rgb(255, 229, 200);
 }
 
 /* gradient header */
@@ -104,28 +105,14 @@ body > main article {
 
 #tees{
     align-items: center;
+    margin-left: 23px;
+    margin-top: 10px;
 }
 
 #lilac-top {
     border-radius: 20%;
     height: 30vh;
     padding: 20px;
-}
-
-.image-container{
-    position: relative;
-    width: 100%;
-    max-width: 600px;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.overlay-text {
-    position: absolute;
 }
 
 #white-top {
@@ -310,6 +297,7 @@ h2 {
     body{
      background-color: rgb(255, 219, 251);
      }
+
      #yfairy {
         height: 12vh;
         padding:5%;
@@ -335,8 +323,7 @@ h2 {
             justify-content: space-between;
             padding: 50vh;
         }
-}
-}
+    }}
 
 /* formatting for phone size screen */
 @media only screen and (max-width: 800px) {
