@@ -3,8 +3,16 @@ body {
     font-family: Fredoka One, Arial, sans-serif;
     margin: 0px;
     font-size: 1.75vw;
-    color: rgb(255, 255, 255);
-    background-color: rgb(242, 210, 255);
+    color: rgb(255, 166, 255);
+    background-color:#ff99be;
+background-image:
+radial-gradient(at 28% 77%, hsla(224,75%,70%,1) 0px, transparent 50%),
+radial-gradient(at 66% 43%, hsla(44,89%,65%,1) 0px, transparent 50%),
+radial-gradient(at 76% 90%, hsla(267,75%,64%,1) 0px, transparent 50%),
+radial-gradient(at 7% 66%, hsla(349,62%,79%,1) 0px, transparent 50%),
+radial-gradient(at 12% 87%, hsla(302,91%,66%,1) 0px, transparent 50%),
+radial-gradient(at 79% 2%, hsla(290,62%,60%,1) 0px, transparent 50%),
+radial-gradient(at 32% 92%, hsla(351,61%,78%,1) 0px, transparent 50%);
 }
 
 /* logo */
@@ -17,8 +25,8 @@ body {
 
 /* gradient header */
 body > header {
-    background: linear-gradient(to top, rgb(242, 210, 255) 0%, rgb(255, 238, 183) 50%);
-    color: rgb(255, 166, 255) 
+    /*background: linear-gradient(to top, rgb(255, 219, 251) transparent 0%, rgb(255, 238, 183) 50%);
+    color: rgb(255, 166, 255) */
 }
 
 /* header format */
@@ -61,9 +69,9 @@ body > main article {
 
 /* side bar (filters) formatting */
 #aside-left {
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 0px;
-    color: rgb(255, 166, 255);
+    color: rgb(255, 194, 253);
     width: 80px;
 }
 
@@ -78,27 +86,20 @@ body > main article {
     justify-content: space-around;
 }
 
-#main-content > div{
-    width: 90%;
+#main-content > div {
+    width: 95%;
+    align-items: center;
 }
 
 #main-content > aside {
     align-items: center;
 }
 
-form {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
 /* tees section */
 #tees {
     padding-top: 80px;
     padding-left: 190px;
-    color: rgb(255, 166, 255);
+    color: rgb(255, 194, 253);
 }
 
 #tees{
@@ -109,6 +110,22 @@ h2 {
     border-radius: 20%;
     height: 30vh;
     padding: 20px;
+}
+
+.image-container{
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay-text {
+    position: absolute;
 }
 
 #white-top {
@@ -141,12 +158,18 @@ h2 {
     padding: 20px;
 }
 
+.bunnies {
+    align-items: center;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
 /* hoodies section */
 #hoodies {
     align-items: center;
-    padding-top: 50px;
-    padding-left: 165px;
-    color: rgb(255, 166, 255);
+    padding-top: 80px;
+    padding-left: 190px;
+    color: rgb(255, 194, 253);
 }
 
 #white-blue-hoodie {
@@ -170,21 +193,22 @@ h2 {
 /* newsletter question format & styling */
 #name, #email, #password, #country, #bio {
     border: none;
-    border-radius: 10%;
+    border-radius: 0%;
     background-color: rgb(245, 221, 254);
     font-family: fredoka one; 
     margin: 10px;
 }
 
-option {
-    color: white;
+.flex-container2 {
+    align-items: center;
+    justify-content: space-between;
 }
 
 /* footer gradient, & styling */
 body > footer {
     display: flex;
-    background: linear-gradient(to bottom, rgb(242, 210, 255) 0%, rgb(255, 238, 183) 100%); 
-    color: rgb(255, 166, 255)   
+    /*background: linear-gradient(to bottom, rgb(255, 219, 251) 0%, rgb(255, 238, 183) 100%); 
+    color: rgb(255, 166, 255) */  
 }
 
 body > footer {
@@ -202,6 +226,8 @@ padding-left: 15%;
 #pfairy {
     height: 15vh;
     padding: 5%;
+    padding-top: 130px;
+    padding-left: 20px;
 }
 
 #bfairy {
@@ -212,20 +238,45 @@ padding-left: 15%;
 #gfairy {
     height: 24vh;
     padding: 5%;
-
-.flex-container {
-    display: flex;
-    justify-content: space-between;
-    padding: 50vh;
 }
 
-
+.flex-container1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 hr {
     margin: 80px;
     border-width: 0.5px;
-    background-color: white;
+    background-color: rgb(255, 166, 255);
+}
+
+#newsltr-header {
+    margin-top: 30vh;
+    font-size: 20px;
+}
+
+.subscribe-button {
+    margin-top: 20px;
+    background-color: rgb(245, 221, 254);
+    font-family: fredoka one;
+    color: rgb(110, 110, 110);
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+
 }
 
 /* footer logo */
@@ -239,7 +290,7 @@ hr {
 #footer-ul {
     display: flex;
     list-style: none;
-
+    
 }
 
 #footer-ul > div > li {
@@ -250,13 +301,14 @@ hr {
 
 #footer-ul > div > li > a {
     text-decoration: none;
-    color: white;
+    color: rgb(255, 166, 255);
+    font-size: 15px;
 }
 
 /* formatting for medium size screen */
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
     body{
-        background-color: rgb(242, 210, 255);
+     background-color: rgb(255, 219, 251);
      }
      #yfairy {
         height: 12vh;
@@ -289,7 +341,7 @@ hr {
 /* formatting for phone size screen */
 @media only screen and (max-width: 800px) {
     body{
-        background-color: rgb(242, 210, 255);
+        background-color: rgb(255, 219, 251);
      }
      #yfairy {
         height: 7vh;

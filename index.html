@@ -30,8 +30,11 @@
                     <nav>
                         <ul class="no-bullets">
                             <li><a href=""></a>Tees</li>
+                            <br>
                             <li><a href=""></a>Hoodies</li>
+                            <br>
                             <li><a href=""></a>Bottoms</li>
+                            <br>
                             <li><a href=""></a>Accessories</li>
                         </ul>
                     </nav>
@@ -41,7 +44,7 @@
                 <article>
                     <header>
                         <!-- Article's header goes here-->
-                    <main class="flex-container">
+                    <main class="flex-container1">
                         <img id="yfairy" src="https://zedicot.com/wp-content/uploads/2024/06/angel-001.png" alt="yellow fairy" class="flex-item">
                        <img id="pfairy" src="https://zedicot.com/wp-content/uploads/2024/06/angel-002.png" alt="pink fairy" class="flex-item"> 
                        <img id="bfairy" src="https://zedicot.com/wp-content/uploads/2024/06/angel-003.png" alt="blue fairy" class="flex-item">
@@ -67,14 +70,17 @@
 
                     <img id="white-yellow-top" src="https://zedicot.com/wp-content/uploads/2024/06/zedicot-merch-010.jpg" alt="white and yellow t-shirt">
 
+                    <video loop muted autoplay class="bunnies" width="80%" height="auto" src="Jumping_bunnies.mp4"></video>
+
+                    <br>
 
                     <article id="hoodies">
                     <h1>────୨ৎ──── hoodies!! ────୨ৎ────</h1>  
                     </article>
 
-                    <img id="white-blue-hoodie" src="https://zedicot.com/wp-content/uploads/2024/06/zedicot-merch-005.jpg" alt="white and blue hoodie">
+                    <img id="black-blue-hoodie" src="https://zedicot.com/wp-content/uploads/2024/06/zedicot-merch-006.jpg" alt="white and blue hoodie">
                     
-                    <img id="black-blue-hoodie" src="https://zedicot.com/wp-content/uploads/2024/06/zedicot-merch-006.jpg" alt="black and blue hoodie">
+                    <img id="white-blue-hoodie" src=" https://zedicot.com/wp-content/uploads/2024/06/zedicot-merch-005.jpg" alt="black and blue hoodie">
 
                     <img id="black-pink-hoodie" src="https://zedicot.com/wp-content/uploads/2024/06/zedicot-merch-009.jpg" alt="black and pink hoodie">
 
@@ -84,42 +90,47 @@
 
         </div>
 
-
-        <hr> 
-        <h2>･:*࿔ೃ.⋆❀° don't miss a thing!! °❀⋆.ೃ࿔*:･</h2>
+        <h2 id="newsltr-header">･:*࿔ೃ.⋆❀° don't miss a thing!! °❀⋆.ೃ࿔*:･</h2>
         <form class="login-form" action="">
+            
+        <div class="flex-container2">
             <label for="name"></label>
             <input type="text" id="name" placeholder="name" required>
             <br>
 
             <label for="email"></label>
-            <input type="email" placeholder="email" id="email">
+            <input type="email" placeholder="email" id="email" required>
             <br>
 
             <label for="password"></label>
-            <input type="password" placeholder="password" id="password">
+            <input type="password" placeholder="password" id="password" required>
             <br>
+        </div>
 
-            <label for="favourite_animal">Favourite Animal:</label>
+            <label for="favourite_animal" >Favourite Animal:</label>
+
             <input type="radio" name="favourite_animal" id="cheetah" value="cheetah">
             <label for="cheetah">Cheetah</label>
+
             <input type="radio" name="favourite_animal" id="shark" value="shark">
             <label for="shark">Shark</label>
-            <input type="radio" name="favourite_animal" id="hedgehog" value="hedgehog">
+
+            <input type="radio" name="favourite_animal" id="snow-leopard" value="snow-leopard">
             <label for="Snow Leopard">Snow Leopard</label>
             <br>
-
+<br>
             <label for="country">Country:</label>
             <select name="country" id="country">
-                <option value="UK">UK</option>
-                <option value="USA">USA</option>
-                <option value="Aus">Aus</option>
-                <option value="NZ">NZ</option>
+                <option id="uk" value="UK">UK</option>
+                <option  id="usa" value="USA">USA</option>
+                <option  id="aus" value="Aus">Australia</option>
+                <option  id="nz" value="NZ">NZ</option>
             </select>
             <br>
 
-            <label for="bio">More ab you!! :</label>
+            <label class="bio" for="bio"> More about you:</label>
             <textarea name="bio" id="bio" cols="30" rows="2"></textarea>
+            <br>
             <br>
 
             <input type="checkbox" id="subscribe" name="subscribe">
@@ -127,7 +138,7 @@
             </label>
             <br>
 
-            <input type="submit" value="Subscribe!">
+            <input class="subscribe-button" type="submit" value="Subscribe!">
             <h2 id="logo-footer">  ̟˙ ★── zedicott ──★ ˙ ̟</h2>
 
         </form>
